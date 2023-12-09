@@ -13,7 +13,6 @@
           <th>Email</th>
         </tr>
         {% for object in object_list %}
-        <!--ASH-->
         <tr>
           <td>{{ object.name }}</td>
           <td>{{ object.birthdate }}</td>
@@ -27,18 +26,7 @@
                 </td>
                 </tr>
         {% endfor %}
-        <!--GARY-->
-        
       </tbody>
     </table>
-    
-    
   </section>
-  <div>
-    {% include 'includes/pagination.html' %}
-  </div>
-   
-  
-  
-  
 {% endblock %}
